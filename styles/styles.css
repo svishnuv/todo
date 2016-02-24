@@ -1,0 +1,18 @@
+.done{
+		text-decoration: line-through;
+		color: red;
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	[type="checkbox"]:not(:checked), [type="checkbox"]:checked{
+		left:0 !important;
+		position: relative !important;
+		visibility: visible !important;
+	}
+
+	span{
+		display: inline !important;
+	}
